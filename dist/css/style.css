@@ -13,12 +13,19 @@ body {
   color: #58402C;
 }
 
+h1 {
+  font-size: 50px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
 header {
   margin-bottom: 40px;
   height: 75px;
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: white;
 }
 
 header nav {
@@ -60,5 +67,38 @@ header nav > .nav-right ul > li {
 header nav > .nav-right ul > li:hover {
   color: #30488F;
   cursor: pointer;
+}
+
+main > section {
+  padding: 0 40px;
+  margin: 115px 0;
+}
+
+main .hero {
+  text-align: center;
+}
+
+main .hero > span {
+  font-size: 22px;
+}
+
+main .hero .log-hero {
+  margin: 40px 0;
+}
+
+main .hero .log-hero a {
+  padding: 10px 15px;
+  background-color: #30488F;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+main .hero .log-hero a:hover {
+  background-color: #233569;
+}
+
+main .hero .log-hero span {
+  margin: 0 10px;
 }
 

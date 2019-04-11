@@ -1,0 +1,30 @@
+main{
+
+  > section{
+    @include gutter;
+  }
+
+  .hero{
+    text-align: center;
+
+    > span {
+      font-size: 22px;
+    }
+
+    .log-hero{
+      margin: 40px 0;
+
+      a{
+        @include button;
+
+        &:hover{
+          background-color: darken($hover, 10%);
+        }
+      }
+
+      span {
+        margin: 0 10px;
+      }
+    }
+  }
+}

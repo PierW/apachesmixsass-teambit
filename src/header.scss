@@ -4,6 +4,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: white;
 
   nav{
     line-height: 75px;
@@ -36,7 +37,7 @@ header {
           font-size: 14px;
 
           &:hover{
-            color: #30488F;
+            color: $hover;
             cursor: pointer;
           }
         }
