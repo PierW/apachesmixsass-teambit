@@ -24,20 +24,41 @@ header {
 header nav {
   line-height: 75px;
   padding: 0 40px;
-  background-color: #FFE7D2;
 }
 
 header nav:after {
   content: "";
   display: table;
   clear: both;
+  display: block;
+  border-bottom: 1px solid #bdb5af;
 }
 
 header nav > .nav-left {
   float: left;
 }
 
+header nav > .nav-left > img {
+  vertical-align: middle;
+}
+
 header nav > .nav-right {
   float: right;
+}
+
+header nav > .nav-right ul {
+  list-style: none;
+}
+
+header nav > .nav-right ul > li {
+  display: inline-block;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header nav > .nav-right ul > li:hover {
+  color: #30488F;
+  cursor: pointer;
 }
 

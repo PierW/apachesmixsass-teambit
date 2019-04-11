@@ -8,18 +8,39 @@ header {
   nav{
     line-height: 75px;
     padding: 0 40px;
-    background-color: $backDark;
 
     &:after{
       @include oldRow;
+      display: block;
+      border-bottom: 1px solid #bdb5af;
     }
 
     > .nav-left{
       float: left;
+
+      > img{
+        vertical-align: middle;
+      }
     }
 
     > .nav-right{
       float: right;
+
+      ul {
+        list-style: none;
+
+        > li {
+          display: inline-block;
+          margin: 0 15px;
+          font-weight: bold;
+          font-size: 14px;
+
+          &:hover{
+            color: #30488F;
+            cursor: pointer;
+          }
+        }
+      }
     }
   }
 
