@@ -1,7 +1,6 @@
-$background : black;
-$textcolor : white;
+@import "const";
 
-h1 {
-  background-color: $background;
-  color: $textcolor;
-}
+// Include solo la Navbar
+@import "header";
+@import "main";
+@import "footer";
