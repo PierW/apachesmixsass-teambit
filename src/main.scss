@@ -36,4 +36,34 @@ main{
       margin: auto;
     }
   }
+
+  .backdark{
+    background-color: $backDark;
+
+    h2{
+      padding: 40px 10px;
+    }
+
+    > div{
+      @include newRow;
+      justify-content: space-around;
+
+      > .figure{
+        flex-basis: 20%;
+
+        img {
+          max-height: 100px;
+        }
+      }
+    }
+
+    .onepic{
+      margin: 50px 0;
+
+      #coniglio{
+        max-width: 280px;
+        max-height: 280px;
+      }
+    }
+  }
 }

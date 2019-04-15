@@ -70,7 +70,7 @@ header nav > .nav-right ul > li:hover {
 }
 
 main > section {
-  padding: 0 40px;
+  padding: 20px 40px;
   margin: 115px 0;
 }
 
@@ -109,5 +109,36 @@ main .hero > .log-hero-low > * {
 main .hero > .log-hero-low > img {
   max-width: 80%;
   margin: auto;
+}
+
+main .backdark {
+  background-color: #FFE7D2;
+}
+
+main .backdark h2 {
+  padding: 40px 10px;
+}
+
+main .backdark > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main .backdark > div > .figure {
+  flex-basis: 20%;
+}
+
+main .backdark > div > .figure img {
+  max-height: 100px;
+}
+
+main .backdark .onepic {
+  margin: 50px 0;
+}
+
+main .backdark .onepic #coniglio {
+  max-width: 280px;
+  max-height: 280px;
 }
 
