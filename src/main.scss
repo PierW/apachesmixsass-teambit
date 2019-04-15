@@ -14,7 +14,7 @@ main{
     .log-hero{
       margin: 40px 0;
 
-      a{
+      .button{
         @include button;
 
         &:hover{
@@ -25,6 +25,15 @@ main{
       span {
         margin: 0 10px;
       }
+    }
+
+    > .log-hero-low > *{
+      display: block;
+    }
+
+    >.log-hero-low > img{
+      max-width: 80%;
+      margin: auto;
     }
   }
 }

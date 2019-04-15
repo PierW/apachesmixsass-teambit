@@ -86,7 +86,7 @@ main .hero .log-hero {
   margin: 40px 0;
 }
 
-main .hero .log-hero a {
+main .hero .log-hero .button {
   padding: 10px 15px;
   background-color: #30488F;
   border-radius: 5px;
@@ -94,11 +94,20 @@ main .hero .log-hero a {
   text-decoration: none;
 }
 
-main .hero .log-hero a:hover {
+main .hero .log-hero .button:hover {
   background-color: #233569;
 }
 
 main .hero .log-hero span {
   margin: 0 10px;
+}
+
+main .hero > .log-hero-low > * {
+  display: block;
+}
+
+main .hero > .log-hero-low > img {
+  max-width: 80%;
+  margin: auto;
 }
 
