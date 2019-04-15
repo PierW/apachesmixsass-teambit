@@ -147,3 +147,13 @@ main .backdark .onepic .coniglio {
   max-height: 280px;
 }
 
+.fa-comments {
+  background-color: #ffb16c;
+  border-radius: 50%;
+  box-shadow: 5px 2px 5px #58402C;
+  padding: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+

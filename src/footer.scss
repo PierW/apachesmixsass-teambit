@@ -1,0 +1,9 @@
+.fa-comments{
+  background-color: darken($backDark, 20%);
+  border-radius: 50%;
+  box-shadow: 5px 2px 5px $primaryText;
+  padding: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
