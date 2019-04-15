@@ -7,3 +7,63 @@
   bottom: 20px;
   right: 20px;
 }
+
+footer{
+
+  margin: 30px 0;
+  padding: 0 40px;
+
+  &:after{
+    @include oldRow;
+  }
+
+  .left-side{
+    float: left;
+    width: 40%;
+
+    &:after{
+      @include oldRow;
+    }
+
+    div{
+      float: left;
+      width: 20%;
+      text-align: center;
+      padding: 10px 0;
+
+      img{
+        width: 70%;
+      }
+    }
+
+    p {
+      float: left;
+      padding: 30px;
+      width: 80%;
+    }
+  }
+
+  .right-side{
+    float: left;
+    width: 60%;
+    @include newRow;
+
+    ul {
+      list-style: none;
+      flex-basis: 20%;
+
+      li {
+        line-height: 1.5em;
+        cursor: pointer;
+
+        &:hover{
+          background-color: #cecece;
+        }
+
+        &:first-child{
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
